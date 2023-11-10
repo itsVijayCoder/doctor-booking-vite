@@ -13,6 +13,7 @@ const Routers = () => {
       <div>
          <Routes>
             <Route path='/' element={<Home />} />
+            <Route path='/doctor-booking-vite' element={<Home />} />
             <Route path='/home' element={<Home />} />
             <Route path='/doctors'>
                <Route index element={<Doctors />} />
