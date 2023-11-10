@@ -1,4 +1,3 @@
-import React from "react";
 import { Pagination, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -50,8 +49,8 @@ const Testimonial = () => {
                   </div>
 
                   <p className='text-[16px] leading-7 mt-4 text-textColor font-[400] '>
-                     "I have taken medical services from them. They treat so
-                     well and providing the best medical services."
+                     I have taken medical services from them. They treat so well
+                     and providing the best medical services.
                   </p>
                </div>
             </SwiperSlide>
@@ -74,8 +73,8 @@ const Testimonial = () => {
                   </div>
 
                   <p className='text-[16px] leading-7 mt-4 text-textColor font-[400] '>
-                     "I have taken medical services from them. They treat so
-                     well and providing the best medical services."
+                     I have taken medical services from them. They treat so well
+                     and providing the best medical services.
                   </p>
                </div>
             </SwiperSlide>
@@ -99,8 +98,8 @@ const Testimonial = () => {
                   </div>
 
                   <p className='text-[16px] leading-7 mt-4 text-textColor font-[400] '>
-                     "I have taken medical services from them. They treat so
-                     well and providing the best medical services."
+                     I have taken medical services from them. They treat so well
+                     and providing the best medical services.
                   </p>
                </div>
             </SwiperSlide>
@@ -123,8 +122,8 @@ const Testimonial = () => {
                   </div>
 
                   <p className='text-[16px] leading-7 mt-4 text-textColor font-[400] '>
-                     "I have taken medical services from them. They treat so
-                     well and providing the best medical services."
+                     I have taken medical services from them. They treat so well
+                     and providing the best medical services.
                   </p>
                </div>
             </SwiperSlide>
@@ -148,8 +147,8 @@ const Testimonial = () => {
                   </div>
 
                   <p className='text-[16px] leading-7 mt-4 text-textColor font-[400] '>
-                     "I have taken medical services from them. They treat so
-                     well and providing the best medical services."
+                     I have taken medical services from them. They treat so well
+                     and providing the best medical services.
                   </p>
                </div>
             </SwiperSlide>
