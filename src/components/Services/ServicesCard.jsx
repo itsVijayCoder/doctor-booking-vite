@@ -1,4 +1,4 @@
-import React from "react";
+/* eslint-disable react/prop-types */
 import { BsArrowRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
@@ -24,11 +24,11 @@ const ServicesCard = ({ item, index }) => {
 
                <span
                   className='w-[40px] h-[40px] text-[18px] leading-7 flex items-center justify-center font-[600] '
-                  // style={{
-                  //    background: `${bgColor}`,
-                  //    color: `${textColor}`,
-                  //    borderRadius: "6px 0 0 6px",
-                  // }}
+                  style={{
+                     background: `${bgColor}`,
+                     color: `${textColor}`,
+                     borderRadius: "6px 0 0 6px",
+                  }}
                >
                   {index + 1}
                </span>
