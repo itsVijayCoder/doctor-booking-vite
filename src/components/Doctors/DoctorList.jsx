@@ -1,4 +1,3 @@
-import React from "react";
 import { doctors } from "./../../asserts/data/doctorData";
 import DoctorCard from "./DoctorCard";
 

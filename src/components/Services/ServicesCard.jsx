@@ -16,7 +16,7 @@ const ServicesCard = ({ item, index }) => {
 
             <div className='flex items-center justify-between mt-[30px]'>
                <Link
-                  to='/doctors'
+                  to='/doctor-booking-vite/doctors'
                   className='w-[40px] h-[40px] rounded-full border border-solid border-[#181a1e] flex items-center justify-center group hover:bg-primaryColor hover:border-none '
                >
                   <BsArrowRight className='group-hover:text-white w-7 h-6' />

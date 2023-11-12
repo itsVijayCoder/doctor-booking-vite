@@ -1,4 +1,3 @@
-import React from "react";
 import { faqs } from "../../asserts/data/faqs";
 import FaqItem from "./FaqItem";
 

@@ -1,5 +1,3 @@
-import React from "react";
-
 import { Link } from "react-router-dom";
 import { RiLinkedinFill, RiPhoneFill } from "react-icons/ri";
 import { MdLocalHospital } from "react-icons/md";
@@ -34,7 +32,7 @@ const socialLinks = [
 
 const quickinks01 = [
    {
-      path: "/home",
+      path: "/doctor-booking-vite/home",
       display: "Home",
    },
    {
@@ -42,7 +40,7 @@ const quickinks01 = [
       display: "About Us",
    },
    {
-      path: "/services",
+      path: "/doctor-booking-vite/services",
       display: "Services",
    },
    {
@@ -53,11 +51,11 @@ const quickinks01 = [
 
 const quickinks02 = [
    {
-      path: "/find-a-doctor",
+      path: "/doctor-booking-vite/doctors",
       display: "Find a Doctor",
    },
    {
-      path: "/",
+      path: "/doctor-booking-vite/doctors",
       display: "Request an Appointment",
    },
    {
@@ -76,7 +74,7 @@ const quickinks03 = [
       display: "Donate",
    },
    {
-      path: "/contact",
+      path: "/doctor-booking-vite/contact",
       display: "Contact Us",
    },
 ];
@@ -91,7 +89,7 @@ const Footer = () => {
                <div className='my-auto'>
                   <div className='flex flex-col items-center sm:items-start'>
                      <Link
-                        to='/home'
+                        to='/doctor-booking-vite/home'
                         className='flex items-center justify-start cursor-pointer'
                      >
                         <MdLocalHospital className='w-8 h-8 my-auto mr-2 text-blue-700' />

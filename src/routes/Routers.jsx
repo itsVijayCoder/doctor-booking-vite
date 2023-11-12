@@ -14,15 +14,18 @@ const Routers = () => {
          <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/doctor-booking-vite' element={<Home />} />
-            <Route path='/home' element={<Home />} />
-            <Route path='/doctors'>
+            <Route path='/doctor-booking-vite/home' element={<Home />} />
+            <Route path='/doctor-booking-vite/doctors'>
                <Route index element={<Doctors />} />
                <Route path=':id' element={<DoctorsDetails />} />
             </Route>
-            <Route path='/login' element={<Login />} />
-            <Route path='/register' element={<Signup />} />
-            <Route path='/contact' element={<Contact />} />
-            <Route path='/services' element={<Services />} />
+            <Route path='/doctor-booking-vite/login' element={<Login />} />
+            <Route path='/doctor-booking-vite/register' element={<Signup />} />
+            <Route path='/doctor-booking-vite/contact' element={<Contact />} />
+            <Route
+               path='/doctor-booking-vite/services'
+               element={<Services />}
+            />
          </Routes>
       </div>
    );

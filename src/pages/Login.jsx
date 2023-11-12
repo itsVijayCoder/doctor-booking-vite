@@ -50,9 +50,9 @@ const Login = () => {
                   </div>
 
                   <p className='mt-5 text-textColor text-center'>
-                     Don't have an account?{" "}
+                     Donot have an account?{" "}
                      <Link
-                        to='/register'
+                        to='/doctor-booking-vite/register'
                         className='text-primaryColor font-medium ml-1 text-[17px]'
                      >
                         Register

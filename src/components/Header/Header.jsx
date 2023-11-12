@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import userImg from "../../asserts/images/avatar-icon.png";
 import { BiMenu } from "react-icons/bi";
 import { MdLocalHospital } from "react-icons/md";
@@ -8,22 +8,22 @@ import { NavLink, Link } from "react-router-dom";
 const navLinks = [
    {
       id: 1,
-      path: "/home",
+      path: "/doctor-booking-vite/home",
       display: "Home",
    },
    {
       id: 2,
-      path: "/doctors",
+      path: "/doctor-booking-vite/doctors",
       display: "Find a Doctor",
    },
    {
       id: 3,
-      path: "/services",
+      path: "/doctor-booking-vite/services",
       display: "Services",
    },
    {
       id: 4,
-      path: "/contact",
+      path: "/doctor-booking-vite/contact",
       display: "Contact",
    },
 ];
@@ -58,7 +58,10 @@ const Header = () => {
             <div className='flex items-center justify-between '>
                {/* ===== Logo ===== */}
 
-               <NavLink to='/home' className='flex items-center justify-center'>
+               <NavLink
+                  to='/doctor-booking-vite/home'
+                  className='flex items-center justify-center'
+               >
                   <MdLocalHospital className='w-8 h-8 my-auto mr-2 text-blue-700' />
 
                   <h2 className='font-[600] text-2xl'>Mediclient</h2>
@@ -99,7 +102,7 @@ const Header = () => {
                      </Link>
                   </div>
 
-                  <Link to='/login'>
+                  <Link to='/doctor-booking-vite/login'>
                      <button className='bg-primaryColor text-white px-4 py-2 mx-3 font-[600] h-11 rounded-3xl flex items-center hover:bg-blue-700'>
                         Login
                      </button>

@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import signupImg from "../asserts/images/signup.gif";
 import avatar from "../asserts/images/doctor-img01.png";
 import { Link } from "react-router-dom";
@@ -159,7 +160,7 @@ const Signup = () => {
                         <p className='mt-5 text-textColor text-center'>
                            Already have an account?{" "}
                            <Link
-                              to='/login'
+                              to='/doctor-booking-vite/login'
                               className='text-primaryColor font-medium ml-1 text-[17px]'
                            >
                               Login
