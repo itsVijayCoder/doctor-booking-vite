@@ -8,22 +8,22 @@ import { NavLink, Link } from "react-router-dom";
 const navLinks = [
    {
       id: 1,
-      path: "/doctor-booking-vite/home",
+      path: "home",
       display: "Home",
    },
    {
       id: 2,
-      path: "/doctor-booking-vite/doctors",
+      path: "doctors",
       display: "Find a Doctor",
    },
    {
       id: 3,
-      path: "/doctor-booking-vite/services",
+      path: "services",
       display: "Services",
    },
    {
       id: 4,
-      path: "/doctor-booking-vite/contact",
+      path: "contact",
       display: "Contact",
    },
 ];
@@ -58,10 +58,7 @@ const Header = () => {
             <div className='flex items-center justify-between '>
                {/* ===== Logo ===== */}
 
-               <NavLink
-                  to='/doctor-booking-vite/home'
-                  className='flex items-center justify-center'
-               >
+               <NavLink to='home' className='flex items-center justify-center'>
                   <MdLocalHospital className='w-8 h-8 my-auto mr-2 text-blue-700' />
 
                   <h2 className='font-[600] text-2xl'>Mediclient</h2>
@@ -91,7 +88,7 @@ const Header = () => {
 
                <div className='flex items-center'>
                   <div>
-                     <Link to='/'>
+                     <Link to='/doctor-booking-vite'>
                         <figure className='w-9 h-9 rounded-full my-2 cursor-pointer'>
                            <img
                               src={userImg}
@@ -102,7 +99,7 @@ const Header = () => {
                      </Link>
                   </div>
 
-                  <Link to='/doctor-booking-vite/login'>
+                  <Link to='login'>
                      <button className='bg-primaryColor text-white px-4 py-2 mx-3 font-[600] h-11 rounded-3xl flex items-center hover:bg-blue-700'>
                         Login
                      </button>

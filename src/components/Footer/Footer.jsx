@@ -32,7 +32,7 @@ const socialLinks = [
 
 const quickinks01 = [
    {
-      path: "/doctor-booking-vite/home",
+      path: "home",
       display: "Home",
    },
    {
@@ -40,7 +40,7 @@ const quickinks01 = [
       display: "About Us",
    },
    {
-      path: "/doctor-booking-vite/services",
+      path: "services",
       display: "Services",
    },
    {
@@ -51,11 +51,11 @@ const quickinks01 = [
 
 const quickinks02 = [
    {
-      path: "/doctor-booking-vite/doctors",
+      path: "doctors",
       display: "Find a Doctor",
    },
    {
-      path: "/doctor-booking-vite/doctors",
+      path: "doctors",
       display: "Request an Appointment",
    },
    {
@@ -74,7 +74,7 @@ const quickinks03 = [
       display: "Donate",
    },
    {
-      path: "/doctor-booking-vite/contact",
+      path: "contact",
       display: "Contact Us",
    },
 ];
@@ -89,7 +89,7 @@ const Footer = () => {
                <div className='my-auto'>
                   <div className='flex flex-col items-center sm:items-start'>
                      <Link
-                        to='/doctor-booking-vite/home'
+                        to='home'
                         className='flex items-center justify-start cursor-pointer'
                      >
                         <MdLocalHospital className='w-8 h-8 my-auto mr-2 text-blue-700' />

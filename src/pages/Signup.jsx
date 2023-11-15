@@ -160,7 +160,7 @@ const Signup = () => {
                         <p className='mt-5 text-textColor text-center'>
                            Already have an account?{" "}
                            <Link
-                              to='/doctor-booking-vite/login'
+                              to='login'
                               className='text-primaryColor font-medium ml-1 text-[17px]'
                            >
                               Login

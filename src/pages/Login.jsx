@@ -52,7 +52,7 @@ const Login = () => {
                   <p className='mt-5 text-textColor text-center'>
                      Donot have an account?{" "}
                      <Link
-                        to='/doctor-booking-vite/register'
+                        to='register'
                         className='text-primaryColor font-medium ml-1 text-[17px]'
                      >
                         Register

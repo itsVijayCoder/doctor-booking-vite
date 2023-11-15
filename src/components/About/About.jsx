@@ -38,7 +38,7 @@ const About = () => {
                      </p>
 
                      <div className='flex justify-center lg:justify-start'>
-                        <Link to='/'>
+                        <Link to='/doctor-booking-vite'>
                            <button className='btn '>Learn More</button>
                         </Link>
                      </div>
