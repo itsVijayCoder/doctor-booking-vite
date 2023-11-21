@@ -8,7 +8,7 @@ import { NavLink, Link } from "react-router-dom";
 const navLinks = [
    {
       id: 1,
-      path: "home",
+      path: "/",
       display: "Home",
    },
    {
@@ -58,7 +58,7 @@ const Header = () => {
             <div className='flex items-center justify-between '>
                {/* ===== Logo ===== */}
 
-               <NavLink to='home' className='flex items-center justify-center'>
+               <NavLink to='/' className='flex items-center justify-center'>
                   <MdLocalHospital className='w-8 h-8 my-auto mr-2 text-blue-700' />
 
                   <h2 className='font-[600] text-2xl'>Mediclient</h2>
@@ -88,7 +88,7 @@ const Header = () => {
 
                <div className='flex items-center'>
                   <div>
-                     <Link to='/doctor-booking-vite'>
+                     <Link to='/'>
                         <figure className='w-9 h-9 rounded-full my-2 cursor-pointer'>
                            <img
                               src={userImg}

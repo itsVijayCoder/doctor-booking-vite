@@ -236,7 +236,7 @@ const Home = () => {
                         </li>
                      </ul>
                      <div className='flex justify-center lg:justify-start'>
-                        <Link to='/doctor-booking-vite'>
+                        <Link to='/'>
                            <button className='btn '>Learn More</button>
                         </Link>
                      </div>
