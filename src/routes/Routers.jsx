@@ -17,7 +17,7 @@ const Routers = () => {
    // const env = loadEnv(process.env.NODE_ENV, process.cwd());
 
    const basePath =
-      process.env.NODE_ENV === "production" ? "/doctor-booking-vite" : "/";
+      process.env.NODE_ENV === "production" ? "/doctor-booking-vite/" : "/";
    return (
       <div>
          <Routes>
