@@ -13,17 +13,17 @@ const navLinks = [
    },
    {
       id: 2,
-      path: "doctors",
+      path: "/doctors",
       display: "Find a Doctor",
    },
    {
       id: 3,
-      path: "services",
+      path: "/services",
       display: "Services",
    },
    {
       id: 4,
-      path: "contact",
+      path: "/contact",
       display: "Contact",
    },
 ];

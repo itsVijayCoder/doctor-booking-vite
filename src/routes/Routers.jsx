@@ -21,17 +21,17 @@ const Routers = () => {
    return (
       <div>
          <Routes>
-            <Route path={basePath}>
+            <Route path={"/"}>
                <Route index element={<Home />} />
                {/* <Route path='home' element={<Home />} /> */}
-               <Route path='login' element={<Login />} />
-               <Route path='register' element={<Signup />} />
+               <Route path='/login' element={<Login />} />
+               <Route path='/register' element={<Signup />} />
                {/* <Route > */}
-               <Route path='doctors' element={<Doctors />} />
-               <Route path='doctors/:id' element={<DoctorsDetails />} />
+               <Route path='/doctors' element={<Doctors />} />
+               <Route path='/doctors/:id' element={<DoctorsDetails />} />
                {/* </Route> */}
-               <Route path='contact' element={<Contact />} />
-               <Route path='services' element={<Services />} />
+               <Route path='/contact' element={<Contact />} />
+               <Route path='/services' element={<Services />} />
             </Route>
          </Routes>
       </div>
